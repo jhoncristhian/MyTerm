@@ -8,8 +8,14 @@
       "args": [
         "-fdiagnostics-color=always",
         "-std=c++17",
+        "-I",
+        "${workspaceFolder}/include",
         "-g",
         "${workspaceFolder}/src/main.cpp",
+        "${workspaceFolder}/src/terminal.cpp",
+        "${workspaceFolder}/src/commands.cpp",
+        "${workspaceFolder}/src/ui.cpp",
+        "${workspaceFolder}/src/utils.cpp",
         "-o",
         "${workspaceFolder}/bin/myterm.exe"
       ],

@@ -1,1 +1,1 @@
-g++ -std=c++17 -o myterm.exe main.cpp
+g++ -std=c++17 -Iinclude -o myterm.exe src/main.cpp src/terminal.cpp src/commands.cpp src/ui.cpp src/utils.cpp
